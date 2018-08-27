@@ -16,23 +16,32 @@ multiline comment
 
 # *** DATA TYPE: INTEGER ***
 # TODO: An integer number (no decimal)
-
-
+integer = 5
+print(integer)
+print(type(integer))
 # *** DATA TYPE: FLOAT ***
 # TODO: A decimal number
-
-
+decimal = 6.2345
+print(decimal)
+print(type(decimal))
 # *** DATA TYPE: STRING ***
 # TODO: A string of characters enclosed in quotes
-
+text = "This is a string"
+print(text)
+print(type(text))
 
 # *** TYPE CASTING ***
 # This converts one type to another
 
 # TODO: Cast float to int
-
+float_num = 5.987678
+int_num = in(float_num)
+print(int_num)
+print(type(int_num))
 # TODO: Cast int to string
-
+number = 5
+print("The number is " + str(nuber))
 # TODO: Cast number string to int
-
+muber = "5"
+print(int(number) + 2)
 # TODO: Input demo (str to float)
